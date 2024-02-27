@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1BA63A9A2B8E7EE5008F49CE /* ToDwoong.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA63A992B8E7EE5008F49CE /* ToDwoong.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BA63A9A2B8E7EE5008F49CE /* ToDwoongDesign.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BA63A992B8E7EE5008F49CE /* ToDwoongDesign.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BA63AA22B8E7F09008F49CE /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA63AA12B8E7F09008F49CE /* Font.swift */; };
 		1BA63AA42B8E7F1D008F49CE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA63AA32B8E7F1D008F49CE /* Color.swift */; };
 		1BA63AA62B8E7F35008F49CE /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA63AA52B8E7F35008F49CE /* Extentions.swift */; };
@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1BA63A962B8E7EE5008F49CE /* ToDwoong.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToDwoong.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA63A992B8E7EE5008F49CE /* ToDwoong.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDwoong.h; sourceTree = "<group>"; };
+		1BA63A962B8E7EE5008F49CE /* ToDwoongDesign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ToDwoongDesign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BA63A992B8E7EE5008F49CE /* ToDwoongDesign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDwoongDesign.h; sourceTree = "<group>"; };
 		1BA63AA12B8E7F09008F49CE /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 		1BA63AA32B8E7F1D008F49CE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		1BA63AA52B8E7F35008F49CE /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		1BA63A8C2B8E7EE5008F49CE = {
 			isa = PBXGroup;
 			children = (
-				1BA63A982B8E7EE5008F49CE /* ToDwoong */,
+				1BA63A982B8E7EE5008F49CE /* ToDwoongDesign */,
 				1BA63A972B8E7EE5008F49CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,15 +53,15 @@
 		1BA63A972B8E7EE5008F49CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1BA63A962B8E7EE5008F49CE /* ToDwoong.framework */,
+				1BA63A962B8E7EE5008F49CE /* ToDwoongDesign.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1BA63A982B8E7EE5008F49CE /* ToDwoong */ = {
+		1BA63A982B8E7EE5008F49CE /* ToDwoongDesign */ = {
 			isa = PBXGroup;
 			children = (
-				1BA63A992B8E7EE5008F49CE /* ToDwoong.h */,
+				1BA63A992B8E7EE5008F49CE /* ToDwoongDesign.h */,
 				1BA63AAF2B8E7FDD008F49CE /* Model.swift */,
 				1BA63AA92B8E7F6D008F49CE /* UI.swift */,
 				1BA63AA12B8E7F09008F49CE /* Font.swift */,
@@ -71,7 +71,7 @@
 				1BA63AAB2B8E7F84008F49CE /* TDCollectionViewCell.swift */,
 				1BA63AAD2B8E7FAE008F49CE /* TDTableViewCell.swift */,
 			);
-			path = ToDwoong;
+			path = ToDwoongDesign;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,16 +81,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA63A9A2B8E7EE5008F49CE /* ToDwoong.h in Headers */,
+				1BA63A9A2B8E7EE5008F49CE /* ToDwoongDesign.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1BA63A952B8E7EE5008F49CE /* ToDwoong */ = {
+		1BA63A952B8E7EE5008F49CE /* ToDwoongDesign */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1BA63A9D2B8E7EE5008F49CE /* Build configuration list for PBXNativeTarget "ToDwoong" */;
+			buildConfigurationList = 1BA63A9D2B8E7EE5008F49CE /* Build configuration list for PBXNativeTarget "ToDwoongDesign" */;
 			buildPhases = (
 				1BA63A912B8E7EE5008F49CE /* Headers */,
 				1BA63A922B8E7EE5008F49CE /* Sources */,
@@ -101,9 +101,9 @@
 			);
 			dependencies = (
 			);
-			name = ToDwoong;
+			name = ToDwoongDesign;
 			productName = todwoong;
-			productReference = 1BA63A962B8E7EE5008F49CE /* ToDwoong.framework */;
+			productReference = 1BA63A962B8E7EE5008F49CE /* ToDwoongDesign.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -121,7 +121,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1BA63A902B8E7EE5008F49CE /* Build configuration list for PBXProject "ToDwoong" */;
+			buildConfigurationList = 1BA63A902B8E7EE5008F49CE /* Build configuration list for PBXProject "ToDwoongDesign" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -134,7 +134,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1BA63A952B8E7EE5008F49CE /* ToDwoong */,
+				1BA63A952B8E7EE5008F49CE /* ToDwoongDesign */,
 			);
 		};
 /* End PBXProject section */
@@ -365,7 +365,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BA63A902B8E7EE5008F49CE /* Build configuration list for PBXProject "ToDwoong" */ = {
+		1BA63A902B8E7EE5008F49CE /* Build configuration list for PBXProject "ToDwoongDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BA63A9B2B8E7EE5008F49CE /* Debug */,
@@ -374,7 +374,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1BA63A9D2B8E7EE5008F49CE /* Build configuration list for PBXNativeTarget "ToDwoong" */ = {
+		1BA63A9D2B8E7EE5008F49CE /* Build configuration list for PBXNativeTarget "ToDwoongDesign" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1BA63A9E2B8E7EE5008F49CE /* Debug */,
