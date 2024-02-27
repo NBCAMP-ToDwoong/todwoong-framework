@@ -26,13 +26,13 @@ public class CustomButton: UIButton {
     
     private func textColor(forBackgroundColor backgroundColor: UIColor) -> UIColor {
         switch backgroundColor {
-        case TDStyle.color.grayBG: return .black
-        case TDStyle.color.redBG: return TDStyle.color.textRed
-        case TDStyle.color.orangeBG: return TDStyle.color.textOrangeYellow
-        case TDStyle.color.yellowBG: return TDStyle.color.textOrangeYellow
-        case TDStyle.color.greenBG: return TDStyle.color.textGreen
-        case TDStyle.color.blueBG: return TDStyle.color.textBlue
-        case TDStyle.color.purpleBG: return TDStyle.color.textPurple
+        case TDStyle.color.bgGray: return .black
+        case TDStyle.color.bgRed: return TDStyle.color.textRed
+        case TDStyle.color.bgOrange: return TDStyle.color.textOrangeYellow
+        case TDStyle.color.bgYellow: return TDStyle.color.textOrangeYellow
+        case TDStyle.color.bgGreen: return TDStyle.color.textGreen
+        case TDStyle.color.bgBlue: return TDStyle.color.textBlue
+        case TDStyle.color.bgPurple: return TDStyle.color.textPurple
         default: return backgroundColor.isLight ? .black : .white // 기본값
         }
     }
