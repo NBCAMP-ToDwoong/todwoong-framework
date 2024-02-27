@@ -30,7 +30,7 @@ public class TDCollectionViewCell: UICollectionViewCell {
     private lazy var titleLabel: UILabel = {
         let label = UILabel()
         label.font = TDStyle.font.body(style: .regular)
-        label.textColor = TDStyle.color.primaryFont
+        label.textColor = TDStyle.color.primaryLabel
         label.numberOfLines = 0
         
         return label
@@ -60,7 +60,7 @@ public class TDCollectionViewCell: UICollectionViewCell {
     private lazy var dateLabel: UILabel = {
         let label = UILabel()
         label.font = TDStyle.font.subheadline(style: .regular)
-        label.textColor = TDStyle.color.secondaryFont
+        label.textColor = TDStyle.color.secondaryLabel
         
         return label
     }()
@@ -68,7 +68,7 @@ public class TDCollectionViewCell: UICollectionViewCell {
     private lazy var timeLabel: UILabel = {
         let label = UILabel()
         label.font = TDStyle.font.subheadline(style: .regular)
-        label.textColor = TDStyle.color.secondaryFont
+        label.textColor = TDStyle.color.secondaryLabel
         
         return label
     }()
@@ -91,7 +91,7 @@ public class TDCollectionViewCell: UICollectionViewCell {
     private lazy var locationLabel: UILabel = {
         let label = UILabel()
         label.font = TDStyle.font.subheadline(style: .regular)
-        label.textColor = TDStyle.color.primaryFont
+        label.textColor = TDStyle.color.primaryLabel
         label.numberOfLines = 0
         
         return label
