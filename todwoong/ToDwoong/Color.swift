@@ -17,17 +17,17 @@ public class Color {
     public let mainDarkTheme = UIColor(hex: "#027A48")!
     
     // Label Color
-    public let primaryFont = UIColor(hex: "#000000")!
-    public let secondaryFont = UIColor(hex: "#8D8D9B")!
+    public let primaryLabel = UIColor(hex: "#000000")!
+    public let secondaryLabel = UIColor(hex: "#8D8D9B")!
     
     // Background Color
-    public let grayBG = UIColor(hex: "#E4E7EC")!
-    public let redBG = UIColor(hex: "#FECDCA")!
-    public let orangeBG = UIColor(hex: "#FEE4E2")!
-    public let yellowBG = UIColor(hex: "#FEF0C7")!
-    public let greenBG = UIColor(hex: "#D1FADF")!
-    public let blueBG = UIColor(hex: "#B9E6FE")!
-    public let purpleBG = UIColor(hex: "#D9D6FE")!
+    public let bgGray = UIColor(hex: "#E4E7EC")!
+    public let bgRed = UIColor(hex: "#FECDCA")!
+    public let bgOrange = UIColor(hex: "#FEE4E2")!
+    public let bgYellow = UIColor(hex: "#FEF0C7")!
+    public let bgGreen = UIColor(hex: "#D1FADF")!
+    public let bgBlue = UIColor(hex: "#B9E6FE")!
+    public let bgPurple = UIColor(hex: "#D9D6FE")!
     
     // Background Font Color
     public let textRed = UIColor(hex: "#B42318")!
@@ -35,5 +35,5 @@ public class Color {
     public let textGreen = UIColor(hex: "#027A48")!
     public let textBlue = UIColor(hex: "#026AA2")!
     public let textPurple = UIColor(hex: "#5925DC")!
+    
 }
-
