@@ -16,7 +16,7 @@ public class TDTableViewCell: UITableViewCell {
     
     // MARK: - UI Properties
     
-    private lazy var checkButton: UIButton = {
+    public lazy var checkButton: UIButton = {
         let button = UIButton()
         button.setImage(UIImage(systemName: "circle"), for: .normal)
         button.setImage(UIImage(systemName: "checkmark.circle.fill"), for: .selected)
@@ -145,7 +145,6 @@ public class TDTableViewCell: UITableViewCell {
 
 extension TDTableViewCell {
     @objc private func checkButtonTapped() {
-        checkButton.isSelected.toggle()
         onCheckButtonTapped?()
     }
     

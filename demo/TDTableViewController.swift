@@ -65,9 +65,12 @@ extension TDTableViewController: UITableViewDataSource, UITableViewDelegate {
         }
         
         let todoItem = todoItems[indexPath.row]
+        
         cell.configure(data: todoItem)
+        cell.checkButton.isSelected = todoItem.isCompleted
+        
         cell.onCheckButtonTapped = {
-            print("투두 완료 버튼 체크")
+            print("Click Todo Check Button")
         }
         
         return cell
